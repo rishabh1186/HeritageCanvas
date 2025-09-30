@@ -35,7 +35,7 @@
       transition: width 360ms cubic-bezier(.2,.9,.2,1);
       z-index:1000;
       display:flex; flex-direction:column; align-items:center;
-      padding:20px 12px; gap:14px;
+      padding:80px 12px 20px 12px; gap:14px;
     }
     .sidebar.expanded { width: var(--sidebar-expanded-width); align-items:flex-start; padding-left:22px; }
 
@@ -46,8 +46,7 @@
     .sidebar-header{ width:100%; padding:6px 0; margin-bottom:6px; }
     .logo { font-family:'Playfair Display',serif; font-size:1.6rem; background: linear-gradient(45deg, #2c3e50, var(--accent)); -webkit-background-clip:text; background-clip:text; color:transparent; white-space:nowrap; transition:opacity 200ms ease, transform 220ms ease; display:block; text-align:left; }
     .logo-short{ display:none; }
-    .sidebar:not(.expanded) .logo-full{ display:none; }
-    .sidebar:not(.expanded) .logo-short{ display:inline-block; font-size:1.25rem; }
+    .sidebar:not(.expanded) .logo{ display:none; }
 
     /* Details Sidebar */
     .details-sidebar { position: fixed; top: 0; right: -420px; width: 400px; height: 100vh; background: var(--bg); box-shadow: -4px 0 20px rgba(0,0,0,0.1); z-index: 1300; transition: right 400ms cubic-bezier(.2,.9,.2,1); overflow-y: auto; padding: 30px; font-family: 'Poppins', sans-serif; }
@@ -102,6 +101,147 @@
 
     /* responsive */
     @media (max-width:900px){ .timeline{ width:86%; left:50%; } .sidebar.expanded{ width: 84vw; } }
+
+    /* Flashcard Styles */
+    .flashcard-container {
+      perspective: 1000px;
+    }
+    .flashcard {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.6s;
+      cursor: pointer;
+    }
+    .flashcard.flipped {
+      transform: rotateY(180deg);
+    }
+    .flashcard-front,
+    .flashcard-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      border-radius: 0.75rem;
+      box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1),
+                  0 2px 4px -2px rgb(0 0 0 / 0.1);
+      overflow: hidden;
+    }
+    .flashcard-back {
+      transform: rotateY(180deg);
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+    }
+    /* Focus outline for keyboard navigation */
+    .flashcard-container:focus {
+      outline: none;
+      box-shadow: 0 0 0 4px #fb923c;
+      border-radius: 0.75rem;
+    }
+
+    /* Image area: ensure full image visibility */
+    .image-wrap {
+      height: 70%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #fff 0%, #fff7f0 100%);
+    }
+    .flashcard-image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+
+    /* Carousel Layering & Animations */
+    #flashcards-grid {
+      position: relative;
+      width: 100%;
+      height: calc(100% * 16/9);
+      max-height: 70vh;
+    }
+    .card-layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 560ms cubic-bezier(0.18, 0.89, 0.32, 1.28),
+                  opacity 420ms cubic-bezier(0.165, 0.84, 0.44, 1);
+      will-change: transform, opacity;
+      pointer-events: none;
+    }
+    .layer-0 {
+      z-index: 30;
+      transform: translateX(0) translateY(0) scale(1);
+      opacity: 1;
+      pointer-events: auto; /* only front card is interactive */
+    }
+    .layer-1 {
+      z-index: 20;
+      transform: translateX(24px) translateY(12px) scale(0.96);
+      opacity: 0.95;
+    }
+    .layer-2 {
+      z-index: 10;
+      transform: translateX(48px) translateY(24px) scale(0.92);
+      opacity: 0.9;
+    }
+    .leaving-left {
+      transform: translateX(-80px) translateY(-6px) rotateZ(-2deg) scale(0.94);
+      opacity: 0;
+      z-index: 5;
+    }
+    .leaving-right {
+      transform: translateX(80px) translateY(-6px) rotateZ(2deg) scale(0.94);
+      opacity: 0;
+      z-index: 5;
+    }
+    .enter-left {
+      transform: translateX(-72px) translateY(0) rotateZ(-1.2deg) scale(0.96);
+      opacity: 0.3;
+    }
+    .enter-right {
+      transform: translateX(72px) translateY(0) rotateZ(1.2deg) scale(0.96);
+      opacity: 0.3;
+    }
+
+    /* Respect reduced motion preferences */
+    @media (prefers-reduced-motion: reduce) {
+      .card-layer {
+        transition: none;
+      }
+    }
+
+    /* Flashcard content styles */
+    .flashcard-content {
+      display: none;
+      flex-direction: column;
+      height: 100%;
+    }
+    .flashcard-content.active {
+      display: flex;
+    }
+    .flashcard-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .flashcard-header h1 {
+      font-size: 1.5rem;
+      color: #3498db;
+      margin: 0;
+    }
+    .flashcard-header p {
+      color: #666;
+      margin: 5px 0 0;
+    }
 
     /* Search bar */
     .search-bar{ display:flex; align-items:center; gap:8px; width:100%; background:#fff; border-radius:999px; padding:10px 14px; border:1.5px solid #dbe9f7; box-shadow: 0 4px 14px rgba(0,0,0,0.06); }
@@ -168,7 +308,6 @@
 
     <div class="top-controls">
       <button class="hamburger" id="hamburger" aria-label="Toggle sidebar"><i class="fas fa-bars"></i></button>
-      <img src="images/heritage_icon.png" alt="Heritage Icon" id="heritageIcon" />
     </div>
 
     <div class="timeline">
@@ -198,6 +337,51 @@
       <p class="details-meta">Year: <span id="detailsYear"></span></p>
       <p id="detailsInfo"></p>
       <p id="detailsText"></p>
+    </div>
+    <div class="flashcard-content" id="flashcardContent">
+      <div class="flashcard-header">
+        <h1>The Story of Ramayan — Flashcards</h1>
+        <p>Click a card to flip it. Use Enter or Space for keyboard.</p>
+      </div>
+      <!-- Loading Indicator -->
+      <div id="flashcardLoading" class="text-center">
+        <div class="inline-flex items-center bg-white p-4 rounded-lg shadow-md">
+          <svg class="animate-spin -ml-1 mr-3 h-6 w-6 text-orange-600"
+               xmlns="http://www.w3.org/2000/svg" fill="none"
+               viewBox="0 0 24 24">
+            <circle class="opacity-25" cx="12" cy="12" r="10"
+                    stroke="currentColor" stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 
+                     0 0 5.373 0 12h4zm2 5.291A7.962 
+                     7.962 0 014 12H0c0 3.042 1.135 
+                     5.824 3 7.938l3-2.647z"></path>
+          </svg>
+          <p class="text-lg font-semibold text-gray-700">Loading flashcards...</p>
+        </div>
+      </div>
+      <!-- Flashcard Carousel -->
+      <div id="flashcards-grid" class="max-w-2xl mx-auto hidden">
+        <!-- Single flashcard will be dynamically inserted here -->
+      </div>
+      <!-- Navigation Controls -->
+      <div id="flashcardNav" class="mt-6 flex items-center justify-center gap-6 hidden">
+        <button id="flashcardPrev"
+                class="inline-flex items-center justify-center rounded-full bg-white shadow-md text-orange-700 hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-400 w-11 h-11"
+                aria-label="Previous card">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+        <span id="flashcardPosition" class="text-sm sm:text-base text-gray-700 font-medium">1 / 13</span>
+        <button id="flashcardNext"
+                class="inline-flex items-center justify-center rounded-full bg-white shadow-md text-orange-700 hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-400 w-11 h-11"
+                aria-label="Next card">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
     </div>
   </div>
 
