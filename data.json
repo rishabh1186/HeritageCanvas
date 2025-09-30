@@ -1,0 +1,725 @@
+[
+  {
+    "name": "Taj Mahal",
+    "coords": [
+      27.1751,
+      78.0421
+    ],
+    "category": "monuments_and_architecture",
+    "year": 1653,
+    "info": "An iconic ivory-white marble mausoleum, the most famous monument in India.",
+    "details": "The Taj Mahal, built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal, is renowned for its stunning symmetry, intricate marble inlay work, and the blend of Persian, Islamic, and Indian architectural styles. It's an emblem of eternal love and a UNESCO World Heritage Site, attracting millions of visitors worldwide.",
+    "image_url": "images/Taj_Mahal.jpg"
+  },
+  {
+    "name": "Red Fort",
+    "coords": [
+      28.6562,
+      77.241
+    ],
+    "category": "monuments_and_architecture",
+    "year": 1648,
+    "info": "A historic fort in Old Delhi that served as the main residence of the Mughal Emperors.",
+    "details": "Red Fort, commissioned by Shah Jahan, served as the political center of the Mughal Empire for centuries. Constructed from red sandstone, it showcases Mughal architecture with grand gates, intricate carvings, and expansive gardens. The fort has witnessed historical events like India's independence declaration and is a symbol of national pride.",
+    "image_url": "images/red_fort.jpg"
+  },
+  {
+    "name": "Hawa Mahal",
+    "coords": [
+      26.9239,
+      75.8267
+    ],
+    "category": "monuments_and_architecture",
+    "year": 1799,
+    "info": "The 'Palace of Winds' in Jaipur, Rajasthan, known for its intricate honeycomb facade.",
+    "details": "Hawa Mahal, designed by Lal Chand Ustad for Maharaja Sawai Pratap Singh, features 953 small windows (jharokhas) allowing royal women to observe street festivities without being seen. Its pink sandstone facade and five-tiered structure exemplify Rajput architecture and reflect the rich cultural heritage of Jaipur.",
+    "image_url": "images/hawa_mahal.jpg"
+  },
+  {
+    "name": "Ghats of Kashi",
+    "coords": [
+      25.3176,
+      82.9739
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1400,
+    "info": "The riverfront steps leading to the banks of the River Ganges in Varanasi.",
+    "details": "The Ghats of Kashi are an iconic series of steps along the River Ganges, serving both religious and social functions. Pilgrims perform ritual baths, offer prayers, and cremate the deceased. These ghats embody centuries of Hindu tradition, spiritual practices, and vibrant local culture, making Varanasi a key spiritual destination.",
+    "image_url": "images/kashi.jpg"
+  },
+  {
+    "name": "Ajanta Caves",
+    "coords": [
+      20.5517,
+      75.7032
+    ],
+    "category": "monuments_and_architecture",
+    "year": 480,
+    "info": "Ancient rock-cut Buddhist cave monuments in Maharashtra dating back to the 2nd century BCE.",
+    "details": "Ajanta Caves consist of 30 rock-cut Buddhist caves featuring intricate sculptures and murals illustrating the Jataka tales. These caves reflect ancient Indian art, devotion, and storytelling methods, representing the height of Buddhist cultural expression during the 2nd century BCE to 480 CE. UNESCO recognizes it as a World Heritage Site.",
+    "image_url": "images/ajanta_caves.jpg"
+  },
+  {
+    "name": "Madhubani Art",
+    "coords": [
+      26.3768,
+      86.0717
+    ],
+    "category": "folk_arts_and_handcrafts",
+    "year": 1500,
+    "info": "A famous folk painting style from the Mithila region of Bihar, traditionally done by women.",
+    "details": "Madhubani Art is a vibrant folk painting tradition using natural dyes and intricate geometric patterns. Originating in the Mithila region, it reflects cultural rituals, mythology, and daily life. Traditionally created on walls and floors, it now adorns paper, canvas, and textiles, symbolizing India's rich artistic heritage.",
+    "image_url": "images/art.jpg"
+  },
+  {
+    "name": "Indian Pottery",
+    "coords": [
+      26.8467,
+      80.9462
+    ],
+    "category": "folk_arts_and_handcrafts",
+    "year": 1700,
+    "info": "A traditional craft representing the artistry and skill of Indian craftsmen.",
+    "details": "Indian pottery showcases centuries-old techniques of shaping and firing clay to create both functional and decorative items. Different regions display unique styles, such as blue pottery from Jaipur and terracotta from West Bengal. Pottery reflects local traditions, religious motifs, and regional identities.",
+    "image_url": "images/craftsmen.jpg"
+  },
+  {
+    "name": "Warli Painting",
+    "coords": [
+      19.9678,
+      73.0805
+    ],
+    "category": "folk_arts_and_handcrafts",
+    "year": 2500,
+    "info": "An ancient tribal art form from Maharashtra, using geometric shapes to depict life and nature.",
+    "details": "Warli Painting uses simple geometric shapes to depict human figures, animals, and everyday life in the Warli tribe. Traditionally painted on mud walls with rice paste, it conveys stories, rituals, and beliefs. Its minimalistic style expresses the deep bond between humans and nature in tribal culture.",
+    "image_url": "images/warli_painting.jpg"
+  },
+  {
+    "name": "Kathak Dance",
+    "coords": [
+      26.8467,
+      80.9462
+    ],
+    "category": "music_and_dance",
+    "year": 1800,
+    "info": "A classical dance form from Uttar Pradesh, known for its rhythmic footwork.",
+    "details": "Kathak is a North Indian classical dance emphasizing storytelling through intricate footwork, spins, and expressive gestures. Originating in temples and later performed in royal courts, it narrates mythological tales and spiritual themes, combining rhythm, grace, and narrative artistry.",
+    "image_url": "images/kathak.jpg"
+  },
+  {
+    "name": "Manipuri Dance",
+    "coords": [
+      24.817,
+      93.9368
+    ],
+    "category": "music_and_dance",
+    "year": 1500,
+    "info": "A classical dance form from Manipur, characterized by gentle, flowing movements.",
+    "details": "Manipuri Dance emphasizes fluidity and grace, often depicting stories of Radha and Krishna. Performed in temples and festivals, its soft movements, colorful attire, and devotional themes reflect Manipur's cultural and spiritual heritage.",
+    "image_url": "images/manipuri_dance.jpg"
+  },
+  {
+    "name": "Chole Bhature",
+    "coords": [
+      28.7041,
+      77.1025
+    ],
+    "category": "cuisine",
+    "year": 1940,
+    "info": "A popular North Indian dish of spiced chickpeas and fried bread.",
+    "details": "Chole Bhature is a North Indian comfort food, combining spicy chickpea curry (chole) with deep-fried bread (bhature). Originating in Punjab and Delhi, it reflects traditional flavors and is widely consumed as a breakfast or festive meal, representing hearty Indian cuisine.",
+    "image_url": "images/chola_bhatura.jpg"
+  },
+  {
+    "name": "Hyderabadi Haleem",
+    "coords": [
+      17.385,
+      78.4867
+    ],
+    "category": "cuisine",
+    "year": 1600,
+    "info": "A popular mixed rice dish with spices, meat, or vegetables, believed to have Mughal origins.",
+    "details": "Hyderabadi Haleem is a slow-cooked stew combining meat, lentils, wheat, and spices. Traditionally prepared during Ramadan, it reflects the culinary influence of Mughal and Deccan culture. Its rich, creamy texture and aromatic flavors make it a celebrated dish in Hyderabad and beyond.",
+    "image_url": "images/hyderabadi_haleem.jpg"
+  },
+  {
+    "name": "Jim Corbett National Park",
+    "coords": [
+      29.53,
+      78.7747
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1936,
+    "info": "India's oldest national park, a hub for Bengal tigers.",
+    "details": "Jim Corbett National Park, established to protect the endangered Bengal tiger, is a rich ecosystem of forests, grasslands, and rivers. Named after the famous hunter and conservationist, it offers wildlife safaris and birdwatching, showcasing India's biodiversity and conservation efforts.",
+    "image_url": "images/jim_corbett_national_park.jpg"
+  },
+  {
+    "name": "Kaziranga National Park",
+    "coords": [
+      26.5775,
+      93.1711
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1908,
+    "info": "A UNESCO World Heritage Site famous for its one-horned rhinoceros.",
+    "details": "Kaziranga, located in Assam, hosts the largest population of Indian one-horned rhinoceros. The park's wetlands, grasslands, and forests support elephants, tigers, and migratory birds. Its protection is crucial for biodiversity conservation and cultural heritage of Northeast India.",
+    "image_url": "images/kaziranga_national_park.jpg"
+  },
+  {
+    "name": "Ranthambore National Park",
+    "coords": [
+      26.0173,
+      76.5026
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1955,
+    "info": "Known for its tigers and being a former royal hunting ground.",
+    "details": "Ranthambore National Park in Rajasthan was once a hunting ground for Maharajas and now protects Bengal tigers and leopards. It features historic forts, lakes, and dry deciduous forests. The park balances wildlife conservation with tourism, making it one of India's most photographed tiger habitats.",
+    "image_url": "images/ranthambore.jpg"
+  },
+  {
+    "name": "Bandipur National Park",
+    "coords": [
+      11.815,
+      76.6295
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1974,
+    "info": "Part of the Nilgiri Biosphere Reserve and a major tiger reserve.",
+    "details": "Located in Karnataka, Bandipur National Park is part of the Nilgiri Biosphere Reserve and protects tigers, elephants, and other wildlife. Its rich flora and fauna, along with diverse ecosystems, make it an important conservation site, contributing to India's tiger preservation initiatives.",
+    "image_url": "images/bandipur_tiger_reserve.jpg"
+  },
+  {
+    "name": "Keoladeo National Park",
+    "coords": [
+      27.1591,
+      77.5236
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1981,
+    "info": "A famous bird sanctuary and a UNESCO World Heritage Site.",
+    "details": "Keoladeo Ghana National Park, also known as Bharatpur Bird Sanctuary, is renowned for its vast variety of resident and migratory birds. Wetlands, lakes, and marshes support endangered species, making it a critical site for ornithology and eco-tourism. UNESCO recognizes its ecological significance globally.",
+    "image_url": "images/Keoladeo_National_Park.jpg"
+  },
+  {
+    "name": "Sundarbans National Park",
+    "coords": [
+      21.9497,
+      89.1833
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1984,
+    "info": "A mangrove forest and a UNESCO World Heritage Site, home to the Royal Bengal Tiger.",
+    "details": "Sundarbans in West Bengal is the largest mangrove forest in the world and a UNESCO World Heritage Site. Known for its Royal Bengal Tigers, estuarine ecosystem, and unique biodiversity, it plays a vital role in coastal protection and supports livelihoods for local communities.",
+    "image_url": "images/Sundarban_National_Park.jpg"
+  },
+  {
+    "name": "Periyar National Park",
+    "coords": [
+      9.4669,
+      77.236
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1950,
+    "info": "A wildlife sanctuary and elephant reserve.",
+    "details": "Periyar National Park in Kerala is famous for its elephant populations and Periyar Lake. Set in the Western Ghats, it supports diverse flora and fauna and offers boat safaris that allow visitors to observe wildlife in a scenic environment. Conservation of elephants and tigers is a priority here.",
+    "image_url": "images/Periyar_National_Park.jpg"
+  },
+  {
+    "name": "Valley of Flowers",
+    "coords": [
+      30.728,
+      79.605
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1982,
+    "info": "A UNESCO World Heritage Site, a national park with a diverse variety of alpine flowers.",
+    "details": "Valley of Flowers National Park in Uttarakhand is famed for its alpine meadows, rare flora, and endemic plant species. Nestled in the Himalayas, it attracts botanists, trekkers, and nature enthusiasts. Recognized by UNESCO, it represents one of the most pristine ecosystems in India.",
+    "image_url": "images/Valley_of_flowers.jpg"
+  },
+  {
+    "name": "Great Himalayan National Park",
+    "coords": [
+      31.78,
+      77.35
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1999,
+    "info": "A UNESCO World Heritage Site in the western Himalayas.",
+    "details": "Located in Himachal Pradesh, this park preserves high-altitude Himalayan ecosystems and species like snow leopards, Himalayan tahr, and rare birds. With trekking trails and alpine landscapes, it provides both conservation and eco-tourism opportunities while maintaining biodiversity.",
+    "image_url": "images/great_himalayan_national_park.jpg"
+  },
+  {
+    "name": "Nanda Devi National Park",
+    "coords": [
+      30.43,
+      79.65
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1982,
+    "info": "A high-altitude national park and a UNESCO World Heritage Site.",
+    "details": "Nanda Devi National Park in Uttarakhand surrounds the Nanda Devi peak and is known for its alpine flora, rare animals, and stunning landscapes. It is a UNESCO World Heritage Site, highlighting the importance of Himalayan biodiversity and preservation of fragile ecosystems.",
+    "image_url": "images/Nanda_Devi_national_park.jpg"
+  },
+  {
+    "name": "Jawai Leopard Reserve",
+    "coords": [
+      25.15,
+      73.083
+    ],
+    "category": "nature_and_wildlife",
+    "year": 2013,
+    "info": "Famous for leopard sightings and granite hills.",
+    "details": "Located in Rajasthan, Jawai Leopard Reserve combines granite hills, grasslands, and villages. It has emerged as a hotspot for leopard conservation, attracting photographers and wildlife enthusiasts. The reserve balances human activity with wildlife protection, showcasing community-based conservation.",
+    "image_url": "images/Jawai_Leopard.jpg"
+  },
+  {
+    "name": "Gurez Valley",
+    "coords": [
+      34.64,
+      74.85
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1800,
+    "info": "A picturesque valley in the Himalayas.",
+    "details": "Gurez Valley in Jammu & Kashmir is a remote Himalayan valley known for its scenic beauty, lush meadows, and cultural richness. It is home to rare wildlife and vibrant local traditions, offering a peaceful retreat while showcasing the natural splendor of the region.",
+    "image_url": "images/Gurez_Valley.jpg"
+  },
+  {
+    "name": "Loktak Lake",
+    "coords": [
+      24.496,
+      93.818
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1700,
+    "info": "The largest freshwater lake in Northeast India, known for its floating phumdis.",
+    "details": "Loktak Lake in Manipur is famous for its unique floating islands called 'phumdis.' It supports rich biodiversity including endangered species like the Sangai deer. The lake sustains local livelihoods through fishing and agriculture and is culturally significant to the Meitei community.",
+    "image_url": "images/Loktak_Lake.jpg"
+  },
+  {
+    "name": "Munnar",
+    "coords": [
+      10.0892,
+      77.0597
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1895,
+    "info": "A hill station known for its sprawling tea plantations.",
+    "details": "Munnar in Kerala is a scenic hill station in the Western Ghats. Famous for its tea gardens, misty hills, and waterfalls, it offers a perfect blend of natural beauty and biodiversity. Munnar attracts tourists, botanists, and adventure seekers from around the world.",
+    "image_url": "images/Munnar_hillstation.jpg"
+  },
+  {
+    "name": "Dal Lake",
+    "coords": [
+      34.11,
+      74.87
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1400,
+    "info": "Known for its Shikara boats and houseboats.",
+    "details": "Dal Lake in Srinagar, Jammu & Kashmir, is a beautiful freshwater lake surrounded by mountains. Famous for houseboats, Shikara rides, and floating gardens, it is both a tourist attraction and a source of livelihood. The lake reflects the cultural and natural heritage of Kashmir.",
+    "image_url": "images/Dal_Lake.jpg"
+  },
+  {
+    "name": "Andaman and Nicobar Islands",
+    "coords": [
+      11.7401,
+      92.6586
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1956,
+    "info": "Famous for their pristine beaches, coral reefs, and diverse marine life.",
+    "details": "The Andaman and Nicobar Islands are a group of islands in the Bay of Bengal, known for turquoise waters, coral reefs, and tropical rainforests. Rich in biodiversity, the islands host unique species and are a popular destination for scuba diving, eco-tourism, and cultural exploration of indigenous tribes.",
+    "image_url": "images/Andaman_and_nicobar.jpg"
+  },
+  {
+    "name": "Cherrapunji",
+    "coords": [
+      25.3,
+      91.7
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1900,
+    "info": "Known for being one of the wettest places on earth and its living root bridges.",
+    "details": "Cherrapunji in Meghalaya is famous for high rainfall, dense forests, and living root bridges made by the Khasi tribe. It is a hub for eco-tourism, trekking, and botanical studies, showcasing both natural beauty and sustainable traditional architecture.",
+    "image_url": "images/Cherrapunji.jpg"
+  },
+  {
+    "name": "Auroville",
+    "coords": [
+      12.0064,
+      79.8106
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1968,
+    "info": "An experimental township known for its unique spiritual and ecological focus.",
+    "details": "Auroville in Tamil Nadu is an international township founded for human unity and ecological sustainability. It features innovative architecture, organic farms, and green energy projects, attracting spiritual seekers, volunteers, and researchers interested in sustainable living.",
+    "image_url": "images/Auroville_pondicherry.jpg"
+  },
+  {
+    "name": "Dudhsagar Falls",
+    "coords": [
+      15.3146,
+      74.3146
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1900,
+    "info": "A four-tiered waterfall on the Mandovi River.",
+    "details": "Dudhsagar Falls in Goa is a spectacular four-tiered waterfall, surrounded by dense forests of the Western Ghats. It is popular for trekking, sightseeing, and photography. The falls contribute to local ecology and tourism, offering a natural spectacle year-round.",
+    "image_url": "images/Dudhsagar_falls.jpg"
+  },
+  {
+    "name": "Western Ghats",
+    "coords": [
+      10.167,
+      76.333
+    ],
+    "category": "nature_and_wildlife",
+    "year": 1988,
+    "info": "A UNESCO World Heritage Site and a biodiversity hotspot with a rich variety of flora and fauna.",
+    "details": "The Western Ghats stretch across Maharashtra, Goa, Karnataka, Kerala, and Tamil Nadu. Recognized by UNESCO for its biodiversity, the region hosts endemic species, tropical forests, rivers, and mountains. Conservation efforts aim to protect its unique ecosystems and maintain ecological balance.",
+    "image_url": "images/Western_Ghats.jpg"
+  },
+  {
+    "name": "Diwali",
+    "coords": [
+      28.7041,
+      77.1025
+    ],
+    "category": "festivals_and_traditions",
+    "year": 500,
+    "info": "The festival of lights, celebrating the triumph of good over evil.",
+    "details": "Diwali, celebrated across India, symbolizes the victory of light over darkness and knowledge over ignorance. People decorate homes with lamps, light fireworks, exchange gifts, and perform religious rituals. It strengthens social bonds and highlights Indian cultural heritage.",
+    "image_url": "images/Diwali.jpg"
+  },
+  {
+    "name": "Holi",
+    "coords": [
+      28.7041,
+      77.1025
+    ],
+    "category": "festivals_and_traditions",
+    "year": 400,
+    "info": "The festival of colors, celebrating spring and love.",
+    "details": "Holi is a vibrant festival marked by throwing colors, singing, dancing, and community feasts. Celebrated mainly in North India, it marks the arrival of spring and the victory of good over evil. Holi fosters joy, unity, and social harmony among participants.",
+    "image_url": "images/Holi.jpg"
+  },
+  {
+    "name": "Durga Puja",
+    "coords": [
+      22.5726,
+      88.3639
+    ],
+    "category": "festivals_and_traditions",
+    "year": 1600,
+    "info": "A grand festival celebrating the Hindu goddess Durga.",
+    "details": "Durga Puja in West Bengal honors Goddess Durga's victory over Mahishasura. Elaborate pandals, idol worship, cultural performances, and rituals attract devotees and tourists. The festival showcases artistry, community involvement, and the spiritual traditions of Bengal.",
+    "image_url": "images/Chalta_Bagan_Durga_Puja_2019.jpg"
+  },
+  {
+    "name": "Onam",
+    "coords": [
+      10.8505,
+      76.2711
+    ],
+    "category": "festivals_and_traditions",
+    "year": 800,
+    "info": "An annual harvest festival celebrating the homecoming of the mythical King Mahabali.",
+    "details": "Onam is celebrated in Kerala with boat races, flower decorations (Pookalam), traditional dances, and a grand feast called Onasadya. It marks the legendary King Mahabali’s annual visit and is a symbol of prosperity, unity, and cultural heritage.",
+    "image_url": "images/Onam.jpg"
+  },
+  {
+    "name": "Ganesh Chaturthi",
+    "coords": [
+      19.076,
+      72.8777
+    ],
+    "category": "festivals_and_traditions",
+    "year": 1893,
+    "info": "A 10-day festival celebrating the birth of Lord Ganesha.",
+    "details": "Ganesh Chaturthi involves installing clay idols of Lord Ganesha, performing prayers (puja), singing devotional songs, and immersing idols in water. Major celebrations occur in Maharashtra, highlighting devotion, community participation, and artistic expression.",
+    "image_url": "images/Ganesh-chaturthi-l.jpg"
+  },
+  {
+    "name": "Kumbh Mela",
+    "coords": [
+      25.4358,
+      81.8463
+    ],
+    "category": "festivals_and_traditions",
+    "year": 600,
+    "info": "A major pilgrimage and festival of faith.",
+    "details": "Kumbh Mela is a mass Hindu pilgrimage held every 12 years at four river-bank locations in India. Millions gather to bathe in sacred rivers, seeking spiritual purification. It is a convergence of faith, culture, and social unity, recognized globally for its scale.",
+    "image_url": "images/Kumbh_Mela2001.jpg"
+  },
+  {
+    "name": "Hornbill Festival",
+    "coords": [
+      25.6751,
+      94.1053
+    ],
+    "category": "festivals_and_traditions",
+    "year": 2000,
+    "info": "A week-long celebration of the cultural traditions of the Naga tribes.",
+    "details": "Hornbill Festival in Nagaland showcases the rich heritage, music, dance, and crafts of the Naga tribes. It promotes tourism, cultural exchange, and preservation of tribal identity while featuring competitions, exhibitions, and traditional performances.",
+    "image_url": "images/Folk_dance_Hornbill_Festival.jpg"
+  },
+  {
+    "name": "Pushkar Camel Fair",
+    "coords": [
+      26.4885,
+      74.5519
+    ],
+    "category": "festivals_and_traditions",
+    "year": 1800,
+    "info": "An annual five-day camel and livestock fair and a cultural festival.",
+    "details": "The Pushkar Camel Fair in Rajasthan is both a livestock trading event and a cultural spectacle. It features camel races, folk performances, rituals at the Pushkar Lake, and handicraft markets, reflecting Rajasthani tradition and rural lifestyle.",
+    "image_url": "images/Pushkar.-_Le_marché_aux_bestiaux_(1).jpg"
+  },
+  {
+    "name": "Makar Sankranti",
+    "coords": [
+      28.7041,
+      77.1025
+    ],
+    "category": "festivals_and_traditions",
+    "year": 500,
+    "info": "A harvest festival celebrated with kite flying, bonfires, and feasts.",
+    "details": "Makar Sankranti marks the sun's transition into Capricorn, celebrated with kite flying, traditional foods like sesame sweets, and community gatherings. It signifies the harvest season, prosperity, and social harmony across India.",
+    "image_url": "images/Makar_Sankranti.jpg"
+  },
+  {
+    "name": "Rath Yatra",
+    "coords": [
+      19.8135,
+      85.8312
+    ],
+    "category": "festivals_and_traditions",
+    "year": 1100,
+    "info": "The Festival of Chariots, celebrated in Puri, dedicated to Lord Jagannath.",
+    "details": "Rath Yatra is celebrated in Puri, Odisha, where the idols of Lord Jagannath, Balabhadra, and Subhadra are taken in grand chariots to Gundicha Temple. The festival draws millions of devotees and is a symbol of devotion, tradition, and communal celebration.",
+    "image_url": "images/Rath_Yatra_Puri_07-11027.jpg"
+  },
+  {
+    "name": "Hemis Festival",
+    "coords": [
+      33.9126,
+      77.7126
+    ],
+    "category": "festivals_and_traditions",
+    "year": 1672,
+    "info": "A Buddhist festival celebrated in the Hemis Monastery.",
+    "details": "The Hemis Festival in Ladakh is a vibrant celebration honoring Guru Padmasambhava. Monks perform masked dances, traditional music, and rituals, attracting tourists and preserving Ladakhi Buddhist culture.",
+    "image_url": "images/Hemis_monastery_monk_festival_III.jpg"
+  },
+  {
+    "name": "Losar Festival",
+    "coords": [
+      34.1526,
+      77.577
+    ],
+    "category": "festivals_and_traditions",
+    "year": 100,
+    "info": "The Tibetan New Year festival.",
+    "details": "Losar marks the Tibetan New Year with prayers, dances, feasts, and family gatherings. Monasteries hold rituals to invoke blessings for prosperity and health. It reflects Tibetan culture and spiritual beliefs in Himalayan regions.",
+    "image_url": "images/losar_festival.jpg"
+  },
+  {
+    "name": "Golden Temple",
+    "coords": [
+      31.62,
+      74.8765
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1604,
+    "info": "The holiest Gurdwara of Sikhism.",
+    "details": "The Golden Temple in Amritsar, Punjab, is the central religious place for Sikhs. Known for its golden architecture, serene Amrit Sarovar, and community kitchen serving thousands, it symbolizes spirituality, equality, and devotion.",
+    "image_url": "images/Golden_Temple_nighttime.jpg"
+  },
+  {
+    "name": "Vaishno Devi Temple",
+    "coords": [
+      33.03,
+      74.95
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1300,
+    "info": "A sacred Hindu temple dedicated to the goddess Vaishnavi.",
+    "details": "Located in the Trikuta Hills of Jammu & Kashmir, Vaishno Devi Temple is a major pilgrimage destination. Devotees undertake a trek to the shrine seeking blessings. The temple represents faith, devotion, and the spiritual journey of Hindus.",
+    "image_url": "images/Vaishno_Devi_Bhavan.jpg"
+  },
+  {
+    "name": "Amarnath Cave",
+    "coords": [
+      34.2155,
+      75.5036
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1850,
+    "info": "A Hindu shrine with an ice stalagmite that forms a Shiva Lingam.",
+    "details": "Amarnath Cave in Jammu & Kashmir houses a naturally formed ice Shiva Lingam. Pilgrims undertake a challenging trek to pay homage. The cave is a symbol of divine power, devotion, and spiritual endurance.",
+    "image_url": "images/Lord_Amarnath.jpg"
+  },
+  {
+    "name": "Tirupati Balaji Temple",
+    "coords": [
+      13.684,
+      79.3499
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 300,
+    "info": "The most visited Hindu temple in the world.",
+    "details": "Situated in Andhra Pradesh, Tirupati Balaji Temple attracts millions of devotees annually. Dedicated to Lord Venkateswara, it is renowned for rituals, offerings, and charitable activities, representing faith, devotion, and religious significance.",
+    "image_url": "images/Purva_Tirupati_Balaji.jpg"
+  },
+  {
+    "name": "Puri Jagannath Temple",
+    "coords": [
+      19.8048,
+      85.8182
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1161,
+    "info": "An important pilgrimage site for Hindus.",
+    "details": "Located in Odisha, the Puri Jagannath Temple is famous for its annual Rath Yatra. It exemplifies Odia architecture, devotion to Lord Jagannath, and the deep-rooted cultural traditions of the region.",
+    "image_url": "images/640px-Shri_Jagannath_temple.jpg"
+  },
+  {
+    "name": "Khwaja Gharib Nawaz Dargah",
+    "coords": [
+      26.4565,
+      74.6315
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1236,
+    "info": "A shrine of the Sufi saint Moinuddin Chishti.",
+    "details": "The Dargah in Ajmer, Rajasthan, is a revered site for people of all faiths. Devotees offer prayers, attend qawwali sessions, and seek blessings, highlighting spiritual inclusivity, Sufi traditions, and devotion.",
+    "image_url": "images/Khwaja_Garib_Nawaz.jpg"
+  },
+  {
+    "name": "Badrinath Temple",
+    "coords": [
+      30.7433,
+      79.4938
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 800,
+    "info": "One of the four Char Dham pilgrimage sites for Hindus.",
+    "details": "Badrinath Temple in Uttarakhand is dedicated to Lord Vishnu. Situated in the Himalayas, it attracts thousands of pilgrims during the Char Dham Yatra. The temple signifies devotion, spirituality, and the majestic natural surroundings.",
+    "image_url": "images/Badrinath_temple_-_Uttarakhand.jpg"
+  },
+  {
+    "name": "Kedarnath Temple",
+    "coords": [
+      30.7352,
+      79.0669
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 800,
+    "info": "Another one of the Char Dham pilgrimage sites, dedicated to Lord Shiva.",
+    "details": "Located in Uttarakhand, Kedarnath Temple is a revered shrine of Lord Shiva, situated at high altitude amidst the Himalayas. Pilgrims undertake challenging treks to seek blessings, emphasizing faith, resilience, and spirituality.",
+    "image_url": "images/Kedarnath_Temple_in_Uttarakhand.jpg"
+  },
+  {
+    "name": "Akshardham Temple",
+    "coords": [
+      28.6127,
+      77.2773
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 2005,
+    "info": "A large Hindu temple complex dedicated to Swaminarayan.",
+    "details": "Akshardham Temple in Delhi is renowned for its intricate carvings, exhibitions, and cultural displays. It serves as a center for spiritual education, architecture, and devotion, attracting tourists worldwide.",
+    "image_url": "images/Akshardham_Lotus.jpg"
+  },
+  {
+    "name": "Basilica of Bom Jesus",
+    "coords": [
+      15.5009,
+      73.9116
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1605,
+    "info": "A UNESCO World Heritage Site with the mortal remains of St. Francis Xavier.",
+    "details": "Located in Goa, the Basilica of Bom Jesus houses the relics of St. Francis Xavier. It is a prime example of Baroque architecture and attracts pilgrims and tourists, representing religious heritage and history.",
+    "image_url": "images/Side_Elevation_of_Basilica_of_Bom_Jesus.jpg"
+  },
+  {
+    "name": "Sabarimala Temple",
+    "coords": [
+      9.4355,
+      77.0811
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1100,
+    "info": "A famous pilgrimage site dedicated to Lord Ayyappan.",
+    "details": "Sabarimala in Kerala draws millions of devotees annually, especially during the Mandala season. Pilgrims follow strict rituals, emphasizing devotion, discipline, and spiritual journey.",
+    "image_url": "images/Sabarimala_temple.jpg"
+  },
+  {
+    "name": "Sarnath",
+    "coords": [
+      25.377,
+      83.0225
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": -500,
+    "info": "The site where the Buddha gave his first sermon.",
+    "details": "Sarnath, near Varanasi, is a key Buddhist pilgrimage site. It houses stupas, monasteries, and the Ashoka Pillar. Visitors explore the birthplace of the Dharma Wheel, reflecting Buddhism's history, teachings, and spiritual significance.",
+    "image_url": "images/Ashoka_Pillar_at_Sarnath.jpg"
+  },
+  {
+    "name": "Shirdi Sai Baba Temple",
+    "coords": [
+      19.7645,
+      74.4764
+    ],
+    "category": "spiritual_and_pilgrimage",
+    "year": 1922,
+    "info": "A temple dedicated to the spiritual master Sai Baba.",
+    "details": "Shirdi Sai Baba Temple in Maharashtra attracts devotees worldwide. Known for its spiritual atmosphere, teachings of Sai Baba, and charitable activities, it is a symbol of faith, devotion, and universal brotherhood.",
+    "image_url": "images/Shri_Saibaba_Samadhi_Temple_in_Shirdi.jpg"
+  },
+  {
+    "name": "Ayodhya (Ramayan Heritage)",
+    "coords": [
+      26.799,
+      82.204
+    ],
+    "category": "tales_and_epics",
+    "epic": "ramayan",
+    "year": -500,
+    "info": "Ancient city associated with Lord Rama and the Ramayan.",
+    "details": "Ayodhya is revered as the birthplace of Lord Rama. It forms a central setting in the Ramayan and hosts temples and ghats linked to episodes from the epic.",
+    "image_url": "images/heritage_icon.png"
+  },
+  {
+    "name": "Kurukshetra (Mahabharat Heritage)",
+    "coords": [
+      29.967,
+      76.817
+    ],
+    "category": "tales_and_epics",
+    "epic": "mahabharat",
+    "year": -300,
+    "info": "Battlefield of the Mahabharat and site of the Bhagavad Gita.",
+    "details": "Kurukshetra is traditionally regarded as the setting for the Kurukshetra War narrated in the Mahabharat. It includes numerous pilgrimage sites and ponds associated with various episodes.",
+    "image_url": "images/heritage_icon.png"
+  },
+  {
+    "name": "Mathura (Harivamsa Heritage)",
+    "coords": [
+      27.492,
+      77.673
+    ],
+    "category": "tales_and_epics",
+    "epic": "harivamsa",
+    "year": -100,
+    "info": "City associated with Lord Krishna’s lineage and events in Harivamsa.",
+    "details": "Mathura holds key episodes tied to Krishna’s early life and lineage, elaborated in the Harivamsa supplement to the Mahabharat.",
+    "image_url": "images/heritage_icon.png"
+  }
+]
